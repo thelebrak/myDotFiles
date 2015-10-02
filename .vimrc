@@ -50,7 +50,7 @@ set guifont=DejaVu\ Sans\ Mono\ 12
 set antialias
 
 "Activation de NERDTree au lancement de vim
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 
 "Remplacer la touche <Esc> par ;;
 :imap ,, <Esc>
