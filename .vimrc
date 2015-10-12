@@ -23,9 +23,13 @@ set visualbell        " Empeche Vim de beeper
 set noerrorbells      " Empeche Vim de beeper
 
 "  -- Tabs and auto-indentation
-set ts=4              " set tabs to have 4 spaces
-set autoindent        " indent when moving to the next line while writing code
-set expandtab         " expand tab into spaces
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+
+"set ts=4              " set tabs to have 4 spaces
+"set autoindent        " indent when moving to the next line while writing code
+"set expandtab         " expand tab into spaces
 
 "Active le comportement habituel de la touche retour en arriere
 set backspace=indent,eol,start
