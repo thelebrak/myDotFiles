@@ -55,3 +55,7 @@ set antialias
 "Remplacer la touche <Esc> par ;;
 :imap ,, <Esc>
 :map ,, <Esc>
+
+" Treat long lines as break lines (useful when moving around in them)
+map j gj
+map k gk
