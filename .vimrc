@@ -56,6 +56,9 @@ set antialias
 "Activation de NERDTree au lancement de vim
 "autocmd vimenter * NERDTree
 
+"Define <Leader> key (for plugins)
+let mapleader = ","
+
 "Remplacer la touche <Esc> par ;;
 :imap ,, <Esc>
 :map ,, <Esc>
