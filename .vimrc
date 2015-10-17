@@ -60,6 +60,16 @@ set antialias
 :imap ,, <Esc>
 :map ,, <Esc>
 
+"Disable arrow keys
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk
