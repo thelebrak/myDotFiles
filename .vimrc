@@ -63,6 +63,9 @@ let mapleader = ","
 :imap ,, <Esc>
 :map ,, <Esc>
 
+"Allow to insert just one character with <C-I>
+nnoremap <C-I> i <Esc>r
+
 "Disable arrow keys
 map <up> <nop>
 map <down> <nop>
