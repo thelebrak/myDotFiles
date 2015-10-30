@@ -49,6 +49,9 @@ filetype on
 filetype plugin on
 filetype indent on
 
+"Allow vim to recognize .md file as markdown
+autocmd BufNewFile,BufRead *.md set filetype=markdown
+
 "Police Linux
 set guifont=DejaVu\ Sans\ Mono\ 12
 set antialias
