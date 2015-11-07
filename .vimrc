@@ -62,6 +62,9 @@ set antialias
 "Define <Leader> key (for plugins)
 let mapleader = ","
 
+"Allow to split directly with <Leader> key
+noremap <leader>v <C-w>v <C-w>w
+
 "Remplacer la touche <Esc> par ;;
 :imap ,, <Esc>
 :map ,, <Esc>
