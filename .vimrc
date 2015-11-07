@@ -64,6 +64,7 @@ let mapleader = ","
 
 "Allow to split directly with <Leader> key
 noremap <leader>v <C-w>v <C-w>w
+noremap <leader>s <C-w>s <C-w>w
 
 "Move easily from one window to the next one
 noremap <C-h> <C-w>h
