@@ -65,6 +65,12 @@ let mapleader = ","
 "Allow to split directly with <Leader> key
 noremap <leader>v <C-w>v <C-w>w
 
+"Move easily from one window to the next one
+noremap <C-h> <C-w>h
+noremap <C-l> <C-w>l
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+
 "Remplacer la touche <Esc> par ;;
 :imap ,, <Esc>
 :map ,, <Esc>
