@@ -1,4 +1,4 @@
-" Vim configuaration - Vincent Jousse
+"Vim configuaration - Vincent Jousse
 " Annule la compatibilite avec l'ancetre Vi : totalement indispensable
 set nocompatible
 
@@ -71,7 +71,7 @@ noremap <C-h> <C-w>h
 noremap <C-l> <C-w>l
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
-noremap <leader>w <C-w>w
+map <leader>w <C-w>w
 
 "Remplacer la touche <Esc> par ;;
 :imap ,, <Esc>
