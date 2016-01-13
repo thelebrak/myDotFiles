@@ -1,0 +1,21 @@
+[user]
+	name = Florian Coste
+	email = fcoste21@gmail.com
+[push]
+	default = simple
+[alias]
+	st = status
+	cm = commit
+	co = checkout
+	cob = checkout -b
+	f = fetch -p
+	ba = branch -a
+	p = push
+	dc = diff --cached
+	sb = status -sb
+	plog = log --graph --pretty='format:%C(red)%d%C(reset) %C(yellow)%h%C(reset) %ar %C(green)%aN%C(reset) %s'
+	rank = shortlog -sn --no-merges
+	bd = branch -d
+	bD = branch -D
+	bdm = !git branch --merged | grep -v '*' | xargs -n 1 git branch -d
+	stb = status -sb
