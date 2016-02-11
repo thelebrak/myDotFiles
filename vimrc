@@ -40,9 +40,7 @@ set hidden
 "Active la coloration syntaxique
 syntax enable
 
-"Utilise la version sombre de Solarized
-"set background=dark
-"colorscheme solarized
+colorscheme molokai " Use molokai colors
 
 "Active les comportements specifiques aux types de fichiers (syntaxe et indentation)
 filetype on
