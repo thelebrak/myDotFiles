@@ -60,7 +60,7 @@ alias show="sudo apt show"
 alias code="cd ~/Code"
 alias todo="cd ~/Documents/misc/todolist && vim todolist.md"
 alias journal="cd ~/Documents/misc/diary && vim 2016_diary.md"
-alias chinois="cd ~/Documents/chinois && exo-open voca_et_phrases.md"
+alias chinois="cd ~/Documents/chinois ; mousepad voca_et_phrases.md &"
 
 # misc aliases
 alias open="exo-open"
