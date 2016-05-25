@@ -38,7 +38,7 @@ alias ?="ping -c 4 8.8.8.8"
 alias myip="curl http://ipecho.net/plain; echo"
 
 # reload bashrc
-alias refresh=". ~/.bashrc && echo 'bash reload'"
+alias refresh=". ~/.bashrc && echo 'bash refreshed'"
 
 # one letter aliases
 alias g="git"
