@@ -73,21 +73,21 @@ alias md5="md5sum"
 
 # Functions
 mcd () {
-	mkdir -p $1
+	mkdir -p "$1"
 	cd $1
 }
 
 ld () {
-	cd $1
+	cd "$1"
 	ls
 }
 
 last () {
-	ls -lt $1 | head
+	ls -lt "$1" | head
 }
 
 copyfile () {
-	cat $1 | xclip -selection clipboard
+	cat "$1" | xclip -selection clipboard
 }
 
 # Most of this aliases are found here : 
