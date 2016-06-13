@@ -22,7 +22,6 @@ alias c="cd"
 
 # display numbers in a human readable format
 alias df="df -Th --total"
-alias du="du -sh *"
 alias free="free -h"
 
 # copy the current working directory to the clipboard
@@ -65,11 +64,11 @@ alias journal="cd ~/Documents/misc/diary && vim 2016_diary.md"
 alias chinois="cd ~/Documents/chinois ; mousepad voca_et_phrases.md &"
 
 # misc aliases
+alias dus="du -sh *"
 alias open="exo-open"
 alias rmdir="rm -rfv"
 alias histg="history | grep"
 alias md5="md5sum"
-
 
 # Functions
 mcd () {
