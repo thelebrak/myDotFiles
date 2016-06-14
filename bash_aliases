@@ -62,6 +62,9 @@ alias todo="cd ~/Documents/misc/todolist && vim todolist.md"
 alias idea="cd ~/Documents/misc/todolist && vim ideas.md"
 alias journal="cd ~/Documents/misc/diary && vim 2016_diary.md"
 alias chinois="cd ~/Documents/chinois ; mousepad voca_et_phrases.md &"
+alias learn-bash="cd ~/Code/learning/bash && vim notes.md"
+alias learn-unix="cd ~/Code/learning/tools/unix && vim notes.md"
+alias learn-vim="cd ~/Code/learning/tools/vim && vim notes.md"
 
 # misc aliases
 alias dus="du -sh *"
