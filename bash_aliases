@@ -85,7 +85,7 @@ ld () {
 	ls
 }
 
-last () {
+usedlast () {
 	ls -lt "$1" | head
 }
 
