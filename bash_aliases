@@ -86,7 +86,11 @@ ld () {
 }
 
 usedlast () {
-	ls -lt "$1" | head
+	if [ $# -eq 0 ]; then
+		ls -lt "." | head
+	else
+		ls -lt "$1" | head
+	fi
 }
 
 copyfile () {
