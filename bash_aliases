@@ -58,7 +58,7 @@ alias show="sudo apt show"
 
 # To move in specific folders
 alias nb="cd ~/Code/notebook && vim notebook.md"
-alias code="cd ~/Code"
+alias code="cd ~/Code && ls"
 alias todo="cd ~/Documents/misc/todolist && vim todolist.md"
 alias idea="cd ~/Documents/misc/todolist && vim ideas.md"
 alias journal="cd ~/Documents/misc/diary && vim 2016_diary.md"
