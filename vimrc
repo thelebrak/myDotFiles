@@ -3,7 +3,7 @@
 set nocompatible
 
 "Activation de pathogen
-call pathogen#infect()
+"call pathogen#infect()
 
 " -- Affichage
 set title             " Met a jour le titre de votre fenetre ou de votre terminal
@@ -40,7 +40,7 @@ set hidden
 "Active la coloration syntaxique
 syntax enable
 
-colorscheme molokai " Use molokai colors
+"colorscheme molokai " Use molokai colors
 
 "Active les comportements specifiques aux types de fichiers (syntaxe et indentation)
 filetype on
