@@ -60,7 +60,7 @@ alias show="sudo apt show"
 # To move in specific folders
 alias nb="cd ~/Code/notebook && vim notebook.md"
 alias code="cd ~/Code && ls"
-alias todo="cd ~/Documents/misc/todolist && vim todolist.md"
+alias todo="cd ~/Documents/misc/todolist && update-todolist && vim todolist.md"
 alias idea="cd ~/Documents/misc/todolist && vim ideas.md"
 alias journal="cd ~/Documents/misc/diary && vim 2016_diary.md"
 alias chinois="cd ~/Documents/chinois ; mousepad voca_et_phrases.md &"
@@ -75,6 +75,9 @@ alias open="exo-open"
 alias rmdir="rm -rfv"
 alias histg="history | grep"
 alias md5="md5sum"
+
+# Get Weather in your terminal
+alias météo="curl http://wttr.in/Antibes"
 
 # Functions
 mcd () {
