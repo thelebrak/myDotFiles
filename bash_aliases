@@ -105,6 +105,12 @@ copyfile () {
 	cat "$1" | xclip -selection clipboard
 }
 
+web_irclog () {
+	url_date=$(date +%Y/%m/%d)
+	url=irclogs.ubuntu.com/"$url_date"/%23"$1".html
+	firefox "$url" &
+}
+
 # Most of this aliases are found here : 
 # https://www.gulshansingh.com/posts/useful-bash-aliases/
 # https://www.digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions
