@@ -82,6 +82,9 @@ alias md5="md5sum"
 # Get Weather in your terminal
 alias météo="curl http://wttr.in/Antibes"
 
+# Firefox alias
+alias xubuntu-qa="firefox http://iso.qa.ubuntu.com/qatracker/milestones/360/builds/130555/testcases &"
+
 # Functions
 mcd () {
 	mkdir -p "$1"
@@ -109,6 +112,12 @@ web_irclog () {
 	url_date=$(date +%Y/%m/%d)
 	url=irclogs.ubuntu.com/"$url_date"/%23"$1".html
 	firefox "$url" &
+}
+
+dl_iso () {
+	release=$(date +%Y%m%d)
+	url=http://cdimage.ubuntu.com/xubuntu/daily-live/"$release"/yakkety-desktop-amd64.iso.zsync
+	zsync "$url"
 }
 
 # Most of this aliases are found here : 
