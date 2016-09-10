@@ -84,7 +84,7 @@ alias md5="md5sum"
 alias météo="curl http://wttr.in/Antibes"
 
 # Firefox alias
-alias xubuntu-qa="firefox http://iso.qa.ubuntu.com/qatracker/milestones/360/builds/130555/testcases &"
+alias xubuntu-qa="firefox http://iso.qa.ubuntu.com/qatracker/milestones/360/builds &"
 
 # Functions
 mcd () {
@@ -116,6 +116,7 @@ web_irclog () {
 }
 
 dl_iso () {
+	cd ~/Documents/iso/xubuntu/yakkety-daily
 	release=$(date +%Y%m%d)
 	url=http://cdimage.ubuntu.com/xubuntu/daily-live/"$release"/yakkety-desktop-amd64.iso.zsync
 	zsync "$url"
