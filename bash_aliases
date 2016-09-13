@@ -74,7 +74,7 @@ alias learn-unix="cd ~/Code/learning/tools/unix && vim notes.md"
 alias learn-vim="cd ~/Code/learning/tools/vim && vim notes.md"
 
 # misc aliases
-alias dus="du -sh *"
+alias dus="du -sh * | sort -hr"
 alias open="exo-open"
 alias rmdir="rm -rfv"
 alias histg="history | grep"
