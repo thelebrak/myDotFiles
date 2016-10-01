@@ -81,7 +81,7 @@ alias histg="history | grep"
 alias md5="md5sum"
 
 # Get Weather in your terminal
-alias météo="curl http://wttr.in/Antibes"
+alias météo="curl http://wttr.in/Cazères"
 
 # Firefox alias
 alias xubuntu-qa="firefox http://iso.qa.ubuntu.com/qatracker/milestones/360/builds &"
