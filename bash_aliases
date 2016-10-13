@@ -72,6 +72,7 @@ alias learn-bash="cd ~/Code/learning/bash && vim notes.md"
 alias learn-python="cd ~/Code/learning/python && vim notes.md"
 alias learn-unix="cd ~/Code/learning/tools/unix && vim notes.md"
 alias learn-vim="cd ~/Code/learning/tools/vim && vim notes.md"
+alias learn-git="cd ~/Code/learning/tools/git && vim notes.md"
 
 # misc aliases
 alias dus="du -sh * | sort -hr"
